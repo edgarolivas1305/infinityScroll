@@ -17,8 +17,10 @@ $(window).on("scroll", function() {
                 // postType: post
             },
             success: function (resp) {
-                console.log(resp);
-
+                my_script_vars.postID = resp.id_pt;
+                document.title = resp.title;
+                window.history.pushState('',resp.title, resp.url);           
+                $('.infinityContainer').append(resp.template);
                 
             },
             error: function (jqXHR, estado, error) {
