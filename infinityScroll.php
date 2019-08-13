@@ -10,8 +10,7 @@
  * @copyright  2019 Edgar Olivas Guzman
  * @license    http://www.php.net/license/3_0.txt  PHP License 3.0
  * @version    1.0.0
- * @link       http://pear.php.net/package/PackageName
- * @see        NetOther, Net_Sample::Net_Sample()
+ * @link       https://github.com/edgarolivas1305/infinityScroll
  * @since      File available since Release 1.0.0
  * @deprecated File deprecated in Release 1.0.0
  */
